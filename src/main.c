@@ -5,7 +5,7 @@ int main(void)
 	printf("Hello\n");
 	
 	if(int i=0;i<10;
-	i++)
+	i++
 	{
 		printf("%d \n",i);
 	}
