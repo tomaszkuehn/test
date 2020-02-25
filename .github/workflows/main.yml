@@ -4,8 +4,8 @@ on: pull_request
 jobs:
   lint_test:
     runs-on: ubuntu-latest
-      name: Code check
-      steps:
+    name: Code check
+    steps:
         - name: action-cpp-lint
           uses: CyberZHG/github-action-cpp-lint@0.0.2
           id: codecheck
