@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("Hello \n");
+	printf("Hello 2\n");
 	
 	if(int i=0;i<10;i++)
 	{
