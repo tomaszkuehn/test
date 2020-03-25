@@ -3,7 +3,6 @@
 pip install --upgrade pip
 pip install cpplint
 
-whereis cpplint
 folders=("include" "includes" "src" "source" "sources" "test" "tests")
 for folder in "${folders[@]}"
 do
@@ -13,7 +12,7 @@ do
         echo ${command}
         if ${command} | grep "error"; then
             echo "::error ::Review your code"
-            
+#exit 1            
         fi
     fi
 done
