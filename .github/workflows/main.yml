@@ -1,13 +1,12 @@
 name: Lint test
-on: pull_request
+on: 
+- push
+- pull_request
 
 jobs:
   lint_test:
     runs-on: ubuntu-latest
-      name: Code check
-      steps:
-        - name: action-cpp-lint
-          uses: CyberZHG/github-action-cpp-lint@0.0.2
-          id: codecheck
-          
-     
+    name: Code check
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ./myaction
