@@ -11,5 +11,5 @@ int main(void)
 	{
 		TRACE("%d",i);
 	}
-	TRACE("End");
+	TRACE("End program");
 }
