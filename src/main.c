@@ -1,11 +1,15 @@
 #include <stdio.h>
+#include "trace.h"
 
 int main(void)
 {
-	printf("Hello\n");
+    int i;
+
+	TRACE("Start");
 	
-	if(int i=0;i<10;i++)
+	for(i=0;i<10;i++)
 	{
-		printf("%d \n\n",i);
+		TRACE("%d",i);
 	}
+	TRACE("End");
 }
