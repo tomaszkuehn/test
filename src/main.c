@@ -5,7 +5,7 @@ int main(void)
 {
     int i;
 
-	TRACE("Start");
+	TRACE("Start program");
 	
 	for(i=0;i<10;i++)
 	{
